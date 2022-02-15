@@ -12,7 +12,6 @@ public class Cats {
     }
 
 
-
     boolean getSatiety() {
         return satiety;
     }
@@ -30,7 +29,7 @@ public class Cats {
 
     void eat(Plate p) {
         p.decreaseFood(appetite);
-        satiety = true ;
+        satiety = true;
     }
 
 }

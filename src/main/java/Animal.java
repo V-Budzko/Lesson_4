@@ -1,5 +1,6 @@
 public class Animal implements AnimalInterface {
-    private int  animalDistanceRun, animalDistanceSwim;
+    private int animalDistanceRun, animalDistanceSwim;
+
     Animal(int animalDistanceRun, int animalDistanceSwim) {
         this.animalDistanceRun = animalDistanceRun;
         this.animalDistanceSwim = animalDistanceSwim;
@@ -11,7 +12,6 @@ public class Animal implements AnimalInterface {
     }
 
 
-
     @Override
     public boolean swim(int value) {
         return animalDistanceSwim >= value;
@@ -20,7 +20,6 @@ public class Animal implements AnimalInterface {
     double getAnimalDistanceRun() {
         return animalDistanceRun;
     }
-
 
 
     double getAnimalDistanceSwim() {
